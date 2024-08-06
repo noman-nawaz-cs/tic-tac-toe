@@ -1,0 +1,122 @@
+body, html {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.main-menu {
+  background-color: #fff;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  max-width: 380px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 4px 8px #0003;
+}
+
+.title {
+  color: #4a148c;
+  text-shadow: 1px 1px 2px #0000004d;
+  margin-bottom: 10px;
+  font-size: 2em;
+  font-weight: 600;
+  transition: color .3s;
+}
+
+.title:hover {
+  color: #ab47bc;
+}
+
+.btn-description {
+  color: #4a148c;
+  margin: 8px 0;
+  font-size: 1.1em;
+  font-weight: 500;
+  transition: color .3s;
+}
+
+.btn-description:hover {
+  color: #ab47bc;
+}
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 16px;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background-color .3s, transform .2s;
+}
+
+.btn:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
+
+#turn {
+  color: #d32f2f;
+  text-align: center;
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: 500;
+  transition: color .3s;
+}
+
+#grid {
+  grid-gap: 2px;
+  background-color: #fff;
+  border: 2px solid #4a148c;
+  border-radius: 10px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  max-width: 280px;
+  height: 280px;
+  display: grid;
+  overflow: hidden;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.grid-cell {
+  cursor: pointer;
+  background-color: #ede8e8;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 600;
+  transition: background-color .3s, transform .2s;
+  display: flex;
+}
+
+.grid-cell:hover {
+  background-color: #e2dddd;
+  transform: scale(1.05);
+}
+
+#reset-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.reset {
+  border-radius: 40px;
+  padding: 10px 50px;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
